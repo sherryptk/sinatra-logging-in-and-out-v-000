@@ -12,6 +12,7 @@ class Helpers
     # else
     #   return false
     # end
+    session.key?(:user_id) ? true:false
   end
 
 end
